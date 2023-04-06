@@ -32,7 +32,7 @@ function getWeather(lat, lon) {
 function handleFormSubmit(event) {
   event.preventDefault();
   console.log("submitted");
-  //hanlde the logic to get the city we're searching for
+  //handle the logic to get the city we're searching for
   var cityInput = document.getElementById("city");
   console.log(cityInput.value);
   //search for a city
